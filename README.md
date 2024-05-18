@@ -12,3 +12,9 @@ Build it via
 Use it via
 
     ./safari-cookie-json "${HOME}"/Library/Containers/com.apple.Safari/Data/Library/Cookies/Cookies.binarycookies
+
+Cookies for profiles can be found in
+
+    "${HOME}"/Library/Containers/com.apple.Safari/Data/Library/WebKit/WebsiteDataStore/"${UUID}"/Cookies/Cookies.binarycookies
+
+where `"${UUID}"` is the profile's UUID.
